@@ -1,0 +1,8 @@
+furo
+mkdocs
+mkdocs-material
+mkdocs-mermaid2-plugin
+sphinx
+myst-parser
+sphinx-rtd-theme
+sphinxcontrib-mermaid
