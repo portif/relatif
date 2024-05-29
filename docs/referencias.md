@@ -1,5 +1,0 @@
-# Referências bibliográficas
-
-```{bibliography}
-```
-

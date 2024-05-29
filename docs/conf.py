@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Relatório de estágio em {NOME_EMPRESA}'
-copyright = '2024, {NOME_COMPLETO}'
+copyright = '{ANO}, {NOME_COMPLETO}'
 author = '{NOME_COMPLETO}'
 release = '{ANO}'
 
@@ -21,7 +21,7 @@ extensions = [
 ]
 
 bibtex_bibfiles = ['refs.bib']
-bibtex_reference_style = 'author_year'
+# bibtex_reference_style = 'author_year'
 
 
 templates_path = ['_templates']
@@ -42,3 +42,18 @@ html_context = {
   'github_repo': 'relestagio',
   'github_version': 'main/docs/',
 }
+
+# https://stackoverflow.com/questions/66393621/sphinx-latex-output-filename
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-latex_documents
+# latex_documents = [
+#     (
+#       'index',
+#       'relestagio.tex',
+#       project,
+#       author,
+#       'manual',
+#       False
+#     )
+# ]
+
+latex_show_urls = 'footnote'
