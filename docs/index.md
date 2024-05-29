@@ -5,6 +5,7 @@
 :caption: Sumário
 
 teste.md
+referencias.md
 ```
 
 ```{mermaid}

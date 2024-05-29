@@ -17,7 +17,12 @@ release = '{ANO}'
 extensions = [
     'myst_parser',
     'sphinxcontrib.mermaid',
+    'sphinxcontrib.bibtex',
 ]
+
+bibtex_bibfiles = ['refs.bib']
+bibtex_reference_style = 'author_year'
+
 
 templates_path = ['_templates']
 exclude_patterns = []
