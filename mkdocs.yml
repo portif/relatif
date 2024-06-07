@@ -4,4 +4,7 @@ site_author: {NOME_COMPLETO}
 theme:
   name: readthedocs
 
+plugins:
+    - search
+    - mermaid2
 
