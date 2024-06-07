@@ -1,6 +1,6 @@
 # Teste de diagramas
 
-```{mermaid}
+```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
