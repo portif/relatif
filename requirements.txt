@@ -6,3 +6,4 @@ sphinx
 myst-parser
 sphinx-rtd-theme
 sphinxcontrib-mermaid
+mkdocs-mermaid2-plugin
