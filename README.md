@@ -2,11 +2,20 @@
 
 Rascunho de documentação para relatório de estágio.
 
-## Ambiente virtual
+## Ambiente virtual no Linux
 
 1. `python3 -m venv .venv`
 2. `source ./.venv/bin/activate`
 3. `pip3 install -r requirements.txt`
+
+## Ambiente virtual no Windows
+
+1. `winget install python`
+1. `exit`
+1. `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
+1. `python -m venv .venv`
+1. `.\.venv\Scripts\Activate.ps1`
+1. `pip3 install -r .\requirements.txt`
 
 ## Versão HTML
 
