@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Relatório de estágio em {NOME_EMPRESA}'
-copyright = '{ANO}, {NOME_COMPLETO}'
-author = '{NOME_COMPLETO}'
-release = '{ANO}'
+project = 'Relatório de estágio em 3x Web'
+copyright = '2024, João Paulo da Silva Monteiro'
+author = 'João Paulo da Silva Monteiro'
+release = '2024'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

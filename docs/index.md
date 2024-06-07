@@ -6,6 +6,7 @@
 
 teste-citacoes.md
 teste-diagramas.md
+smtp.md
 ```
 
 ```{bibliography}
