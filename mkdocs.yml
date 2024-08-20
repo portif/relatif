@@ -1,7 +1,10 @@
 site_name: Relatório de estágio em {NOME_EMPRESA}
-site_author: {NOME_COMPLETO}
+site_author: NOME_COMPLETO
 
 theme:
   name: readthedocs
 
+plugins:
+    - search
+    - mermaid2
 
