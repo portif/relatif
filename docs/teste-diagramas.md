@@ -1,4 +1,4 @@
 # Teste de diagramas
 
-```{mermaid} diagrama/demo.mmd
+```{mermaid} diagramas/demo.mmd
 ```
