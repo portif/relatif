@@ -1,8 +1,20 @@
 site_name: Relatório de estágio em {NOME_EMPRESA}
 site_author: {NOME_COMPLETO}
 
+# O plugin mermaid2, usado para renderizar diagramas mermaid,
+# só funciona com o tema material.
 theme:
-  name: readthedocs
+  name: material
+  language: pt
+
+markdown_extensions:
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
 
 plugins:
     - search

@@ -6,8 +6,5 @@
 
 teste-citacoes.md
 teste-diagramas.md
+referencias.md
 ```
-
-```{bibliography}
-```
-
